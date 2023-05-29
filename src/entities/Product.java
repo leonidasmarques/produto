@@ -16,8 +16,6 @@ public class Product {
 		this.name = name ;
 		this.price = price;
 	}
-	
-	
 
 	public String getName() {
 		return name;
@@ -37,10 +35,6 @@ public class Product {
 
 	public int getQuantity() {
 		return quantity;
-	}
-
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
 	}
 
 	public double totalValueInStock() {
