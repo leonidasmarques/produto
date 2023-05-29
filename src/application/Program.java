@@ -16,23 +16,23 @@ public class Program {
 		System.out.print("Price: ");
 		double price = sc.nextDouble();
 		
-		Product produto = new Product(name, price);
+		Product product = new Product(name, price);
 		
 		System.out.println();
-		System.out.println("Product data: " + produto);
+		System.out.println("Product data: " + product);
 		System.out.println();
 		System.out.print("Enter the number of products to be added in stock: ");
 		int quantity = sc.nextInt();
-		produto.addProducts(quantity);
+		product.addProducts(quantity);
 		
 		System.out.println();
-		System.out.println("Updated data: " + produto);
+		System.out.println("Updated data: " + product);
 		System.out.println();
 		System.out.print("Enter the number of products to be removed from stock: ");
 		quantity = sc.nextInt();
-		produto.removeProducts(quantity);
+		product.removeProducts(quantity);
 		System.out.println();
-		System.out.println("Updated data: " + produto);
+		System.out.println("Updated data: " + product);
 		
 		
 		
